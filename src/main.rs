@@ -1142,6 +1142,7 @@ fn build_ui(app: &adw::Application) {
     let window = adw::ApplicationWindow::builder()
         .application(app)
         .title("Notes")
+        .icon_name(APP_ID)
         .default_width(1000)
         .default_height(650)
         .content(&split)
@@ -1323,6 +1324,7 @@ fn build_ui(app: &adw::Application) {
         move |_, _| {
             let about = adw::AboutDialog::builder()
                 .application_name("Notes")
+                .application_icon(APP_ID)
                 .developer_name("Your Name") // <- put your name here
                 .version(env!("CARGO_PKG_VERSION"))
                 .comments("A modern, minimal note-taking app built with Rust, GTK4 and libadwaita.")
