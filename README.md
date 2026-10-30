@@ -42,7 +42,7 @@ newer) and a recent stable Rust toolchain (edition 2024, so Rust 1.85 or newer).
 ### 2. Build and install the .deb package
 
 ```bash
-git clone <your-repository-url> notes-app
+git clone https://github.com/Zannatul-Naim/notes-app.git notes-app
 cd notes-app
 ./packaging/build-deb.sh
 sudo apt install ./target/deb/notes-app_*_amd64.deb
