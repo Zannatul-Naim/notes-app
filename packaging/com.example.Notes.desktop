@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Notes
+GenericName=Note Taking
+Comment=A modern, minimal note-taking app
+Exec=notes-app
+Icon=com.example.Notes
+Terminal=false
+Categories=Utility;TextEditor;GTK;GNOME;
+Keywords=notes;markdown;memo;text;
+StartupNotify=true
+StartupWMClass=com.example.Notes

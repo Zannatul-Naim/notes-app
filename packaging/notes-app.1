@@ -1,0 +1,23 @@
+.TH NOTES-APP 1 "October 2026" "notes-app" "User Commands"
+.SH NAME
+notes-app \- modern, minimal note-taking app
+.SH SYNOPSIS
+.B notes-app
+.SH DESCRIPTION
+Notes is a small desktop note-taking app with live Markdown styling,
+pinned notes, #tags, search and a light/dark theme.
+.SH FILES
+.TP
+.I ~/.local/share/notes-app/notes/
+Your notes, one Markdown file per note.
+.TP
+.I ~/.local/share/notes-app/pinned.txt
+The ids of pinned notes.
+.TP
+.I ~/.local/share/notes-app/theme.txt
+The chosen theme: system, light or dark.
+.SH ENVIRONMENT
+.TP
+.B XDG_DATA_HOME
+Where the data directory is located. Set it to a temporary folder to try the
+app without touching your real notes.
